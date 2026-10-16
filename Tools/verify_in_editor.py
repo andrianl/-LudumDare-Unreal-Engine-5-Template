@@ -6,7 +6,8 @@ expected = {'r.ForwardShading': 1, 'r.AntiAliasingMethod': 5,
             'r.DefaultFeature.Bloom': 1, 'r.Nanite.ProjectEnabled': 0,
             'r.DynamicGlobalIlluminationMethod': 0, 'r.RayTracing': 0,
             'r.DefaultFeature.MotionBlur': 0, 'r.MotionBlurQuality': 0,
-            'r.DepthOfFieldQuality': 0}
+            'r.DepthOfFieldQuality': 0,
+            'r.SupportExpFogMatchesVolumetricFog': 0}
 for name, value in expected.items():
     actual = unreal.SystemLibrary.get_console_variable_int_value(name)
     assert actual == value, f'{name}: expected {value}, got {actual}'
