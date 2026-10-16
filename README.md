@@ -69,7 +69,6 @@ Only English language data is included by default. Add other languages in the pa
 - `Config/DefaultGameUserSettings.ini` — initial resolution and quality settings.
 - `Config/DefaultGame.ini` — project details and packaging options.
 - `LudumDare.uproject` — engine association and enabled plugins.
-- `Docs/VALIDATION.md` — notes from the initial local validation.
 
 The initial template was checked with UE 5.8.1 using a headless configuration test. That check covered map loading and rendering settings, not visual quality, frame rates, or finished builds on all three platforms.
 
